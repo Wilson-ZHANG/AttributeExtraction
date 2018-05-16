@@ -3,10 +3,13 @@
 from __future__ import print_function
 import os
 import re
+import json
+import csv
 
 
 def produce_filename(targetdir):
     targetnames = os.listdir(targetdir)
+
     for name in targetnames:
         if '.txt' == name[-4:]:
             print("//"*20,name,"//"*20)
@@ -21,7 +24,10 @@ def attr_get(filename):
     s =f.read()
     print(s)
     i = 0
-    while(i<79):
+    li = []
+    context = []
+    tmp =[]
+    while(i<4):
         try:
             #print(data_set[i])
             #pattern = flag + "\s*"+str(data_set[i])+"(\n|\s)*[\u4e00-\u9fa5]*(\n|\s)*"+flag
@@ -31,20 +37,38 @@ def attr_get(filename):
             match = re.search(p_begin,s,re.M)
             match_attr = re.search(p_begin_attr, s, re.M)
             match_sub =re.search(pattern_sub,s,re.M)
-            print("match",match)
-            print("match_attr", match_attr)
-            print("match_sub",match_sub)
+            #print("match",match)
+            #print("match_attr", match_attr)
+            #print("match_sub",match_sub)
             begin = match.end()
             entity = s[match.end():match_attr.end()]
-            print('{"',entity,'":"',s[match_attr.end()+2:match_sub.start()],'"}',file=save)
-            print('begin=',begin)
+            li.append(entity)
+            tmp.append(s[match_attr.end()+2:match_sub.start()])
+            print(s[match_attr.end()+2:match_sub.start()])
+            #print("tmp:",tmp)
+            #print(tmp[1])
+            print("***"*20,i,"***"*20)
+            with open("testaa.csv", 'a') as csvfile:
+                writer = csv.writer(csvfile)
+                writer.writerow(tmp)
+            #print('begin=',begin)
             final = match_sub.end()
-            print('final=', final)
+            #print('final=', final)
             s =s[match_sub.end():]
+
 
         except:
             pass
         i+=1
+    context.append(tmp)
+    #print("context:",context)
+    '''
+    with open("testaa.csv",'a') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(li)
+    '''
+        #writer.writerows(context)
+    #print(li)
     save.close()
     f.close()
 

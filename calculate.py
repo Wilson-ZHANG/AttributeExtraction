@@ -24,6 +24,7 @@ def attr_get(filename):
     i = 0
     while(i<data_set.__len__()):
         print("****"*10,data_set[i],"****"*10)
+        print(data_set.__len__())
         try:
             while(ss):
                 p1 = data_set[i]
