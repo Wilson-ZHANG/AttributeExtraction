@@ -18,58 +18,44 @@ def produce_filename(targetdir):
 
 def attr_get(filename):
     f = open(filename,'r',encoding='utf-8')
-    newname ="txt2js_"+filename[-59:]
+    newname ="clean_for_js_"+filename[-59:]
     print(newname)
     save =open(newname,'w',encoding='utf-8')
-    s =f.read()
-    print(s)
+
+    #print(s)
     i = 0
     li = []
     context = []
     tmp =[]
-    while(i<4):
+    for line in f:
+        line = line.strip('\n')
+        save.write(line+' ')
+
+    f.close()
+    save.close()
+
+    jsname = "js_"+filename[-59:]
+    f_again = open(newname,'r',encoding='utf-8')
+    save_again = open(jsname,'w',encoding='utf-8')
+    s=f_again.read()
+    #print(s)
+    print('{',file=save_again)
+    print('"filename":"',filename[-50:-4],'",',file=save_again)
+    stt = s
+    while(i<30):
+
         try:
-            #print(data_set[i])
-            #pattern = flag + "\s*"+str(data_set[i])+"(\n|\s)*[\u4e00-\u9fa5]*(\n|\s)*"+flag
-            p_begin = "ROUNDBEGIN "
             p_begin_attr = "ROUNDBEGIN " +"[\u4e00-\u9fa5]+"
             pattern_sub = "ROUNDEND "
-            match = re.search(p_begin,s,re.M)
-            match_attr = re.search(p_begin_attr, s, re.M)
-            match_sub =re.search(pattern_sub,s,re.M)
-            #print("match",match)
-            #print("match_attr", match_attr)
-            #print("match_sub",match_sub)
-            begin = match.end()
-            entity = s[match.end():match_attr.end()]
-            li.append(entity)
-            tmp.append(s[match_attr.end()+2:match_sub.start()])
-            print(s[match_attr.end()+2:match_sub.start()])
-            #print("tmp:",tmp)
-            #print(tmp[1])
-            print("***"*20,i,"***"*20)
-            with open("testaa.csv", 'a') as csvfile:
-                writer = csv.writer(csvfile)
-                writer.writerow(tmp)
-            #print('begin=',begin)
-            final = match_sub.end()
-            #print('final=', final)
-            s =s[match_sub.end():]
-
+            match_attr = re.search(p_begin_attr, stt, re.M)
+            match_sub =re.search(pattern_sub,stt,re.M)
+            entity = stt[match_attr.start()+11:match_attr.end()]
+            print('"',entity,'":"',stt[match_attr.end()+1:match_sub.start()-1],'",',file=save_again)
+            stt = stt[match_sub.end():]
 
         except:
             pass
         i+=1
-    context.append(tmp)
-    #print("context:",context)
-    '''
-    with open("testaa.csv",'a') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(li)
-    '''
-        #writer.writerows(context)
-    #print(li)
-    save.close()
-    f.close()
+    print("}", file=save_again)
 
-produce_filename('D:\\KG\\testa')
+produce_filename('D:\\KG\\attr_get_new_jibing')

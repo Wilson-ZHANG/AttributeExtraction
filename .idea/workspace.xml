@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35ab6215-a0c8-43ae-a0f8-b59b791bcebf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/attr_get_2_json.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mongodb_json.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/attr_get_25e50868-d766-4673-be70-8125d271a690_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/attr_get_2ef8a2ec-6cb2-4cf2-95bb-909ed6122fa0_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/attr_get_94628e55-d700-499f-b2d4-590c8f5ffb79_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/attr_get_9541a1a8-62cb-4c48-b619-2830bdd3737f_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/attr_get_b574820a-c8a2-4f35-9e9f-c71a7ce5a48f_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/attr_get_c37ee246-7328-4628-8c50-11561570b03b_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/attr_get_df497768-0539-47df-a1ab-6312d72bb1ed_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/attr_get_f9bde2db-47db-441b-b3a0-e8465fc981a6_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/txt2js_attr_get_2ef8a2ec-6cb2-4cf2-95bb-909ed6122fa0_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/txt2js_attr_get_94628e55-d700-499f-b2d4-590c8f5ffb79_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/txt2js_attr_get_9541a1a8-62cb-4c48-b619-2830bdd3737f_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/txt2js_attr_get_b574820a-c8a2-4f35-9e9f-c71a7ce5a48f_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/txt2js_attr_get_c37ee246-7328-4628-8c50-11561570b03b_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/txt2js_attr_get_df497768-0539-47df-a1ab-6312d72bb1ed_TERMS.PDF.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/txt2js_attr_get_f9bde2db-47db-441b-b3a0-e8465fc981a6_TERMS.PDF.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attr_get_txt2json.py" afterPath="$PROJECT_DIR$/attr_get_txt2json.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculate.py" afterPath="$PROJECT_DIR$/calculate.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/txt2js_attr_get_25e50868-d766-4673-be70-8125d271a690_TERMS.PDF.txt" afterPath="$PROJECT_DIR$/json_merge.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +29,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/attrifind$attr_get_txt2json.coverage" NAME="attr_get_txt2json Coverage Results" MODIFIED="1526441339735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attrifind$attr_get_txt2json.coverage" NAME="attr_get_txt2json Coverage Results" MODIFIED="1526689283613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/attrifind$batch.coverage" NAME="batch Coverage Results" MODIFIED="1523282760579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/attrifind$attr_get_health_insurance.coverage" NAME="attr_get_health_insurance Coverage Results" MODIFIED="1525969025283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/attrifind$find.coverage" NAME="find Coverage Results" MODIFIED="1523875522232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -26,6 +39,7 @@
     <SUITE FILE_PATH="coverage/attrifind$find_chinaNo.coverage" NAME="find_chinaNo Coverage Results" MODIFIED="1523990757865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/attrifind$filename_factory2.coverage" NAME="filename_factory2 Coverage Results" MODIFIED="1525841937795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/attrifind$cat.coverage" NAME="cat Coverage Results" MODIFIED="1523878601740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attrifind$json_merge.coverage" NAME="json_merge Coverage Results" MODIFIED="1526689482933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/attrifind$find_numNo.coverage" NAME="find_numNo Coverage Results" MODIFIED="1523990677772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -33,18 +47,18 @@
       <file leaf-file-name="attr_get_health_insurance.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/attr_get_health_insurance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="0">
               <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attr_get_txt2json.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="attr_get_txt2json.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/attr_get_txt2json.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-440">
-              <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+            <state relative-caret-position="176">
+              <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
               <folding>
                 <element signature="e#54#91#0" expanded="true" />
               </folding>
@@ -52,31 +66,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attr_get_b574820a-c8a2-4f35-9e9f-c71a7ce5a48f_TERMS.PDF.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/attr_get_b574820a-c8a2-4f35-9e9f-c71a7ce5a48f_TERMS.PDF.txt">
+      <file leaf-file-name="json_merge.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json_merge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding>
+                <element signature="e#54#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fineok.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fineok.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.csv">
+      <file leaf-file-name="disease_raw.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/disease_raw.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="txt2js_attr_get_2ef8a2ec-6cb2-4cf2-95bb-909ed6122fa0_TERMS.PDF.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/txt2js_attr_get_2ef8a2ec-6cb2-4cf2-95bb-909ed6122fa0_TERMS.PDF.txt">
+      <file leaf-file-name="testaa.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testaa.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,7 +111,7 @@
       <file leaf-file-name="attr_get_2_json.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/attr_get_2_json.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
+            <state relative-caret-position="1539">
               <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
               <folding>
                 <element signature="e#74#111#0" expanded="true" />
@@ -97,7 +123,7 @@
       <file leaf-file-name="calculate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
+            <state relative-caret-position="37">
               <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -106,22 +132,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="find_numNo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/find_numNo.py">
+      <file leaf-file-name="spider_new.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/gridsumsum/codeh/spider_new.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flag_clear.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flag_clear.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="380">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="e#25#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,7 +204,9 @@
         <option value="$PROJECT_DIR$/attr_get_2_json.py" />
         <option value="$PROJECT_DIR$/mongodb_json.py" />
         <option value="$PROJECT_DIR$/calculate.py" />
+        <option value="$PROJECT_DIR$/fine3q.txt" />
         <option value="$PROJECT_DIR$/attr_get_txt2json.py" />
+        <option value="$PROJECT_DIR$/json_merge.py" />
       </list>
     </option>
   </component>
@@ -196,9 +216,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-39" />
-    <option name="y" value="29" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
     <option name="width" value="1378" />
     <option name="height" value="733" />
   </component>
@@ -219,6 +239,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,7 +251,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.attr_get_txt2json">
+  <component name="RunManager" selected="Python.json_merge">
     <configuration name="attr_get_health_insurance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,24 +329,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="filename_factory" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="attrifind" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filename_factory.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="filename_factory2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -345,20 +347,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="json_merge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="attrifind" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json_merge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.filename_factory" />
-      <item index="1" class="java.lang.String" itemvalue="Python.attr_get_txt2json" />
-      <item index="2" class="java.lang.String" itemvalue="Python.filename_factory2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.calculate" />
-      <item index="4" class="java.lang.String" itemvalue="Python.attr_get_health_insurance" />
+      <item index="0" class="java.lang.String" itemvalue="Python.attr_get_txt2json" />
+      <item index="1" class="java.lang.String" itemvalue="Python.filename_factory2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.calculate" />
+      <item index="3" class="java.lang.String" itemvalue="Python.attr_get_health_insurance" />
+      <item index="4" class="java.lang.String" itemvalue="Python.json_merge" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.attr_get_txt2json" />
-        <item index="1" class="java.lang.String" itemvalue="Python.calculate" />
-        <item index="2" class="java.lang.String" itemvalue="Python.attr_get_health_insurance" />
-        <item index="3" class="java.lang.String" itemvalue="Python.filename_factory2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.filename_factory" />
+        <item index="0" class="java.lang.String" itemvalue="Python.json_merge" />
+        <item index="1" class="java.lang.String" itemvalue="Python.attr_get_txt2json" />
+        <item index="2" class="java.lang.String" itemvalue="Python.calculate" />
+        <item index="3" class="java.lang.String" itemvalue="Python.attr_get_health_insurance" />
+        <item index="4" class="java.lang.String" itemvalue="Python.filename_factory2" />
       </list>
     </recent_temporary>
   </component>
@@ -376,17 +396,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26427525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3206951" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32636657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2650514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -395,7 +417,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -436,17 +457,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flag_attr_get_0b4f6d36-41b3-4e82-8f18-3fc86a922732_TERMS.PDF.txt" />
-    <entry file="file://$PROJECT_DIR$/flag_attr_get_0aa67908-94f0-4311-91ce-f42179124a6f_TERMS.PDF.txt" />
-    <entry file="file://$PROJECT_DIR$/flag_attr_get_0a940622-2a56-4b11-b183-b42b165d92d4_TERMS.PDF.txt" />
-    <entry file="file://$PROJECT_DIR$/flag_attr_get_0a80de7f-b34a-4699-b4fd-ea16c54eaaf5_TERMS.PDF.txt" />
-    <entry file="file://$PROJECT_DIR$/flag_attr_get_0a11eba4-4509-4af0-b3a6-45ca38fec979_TERMS.PDF.txt" />
-    <entry file="file://$PROJECT_DIR$/attr_get_0a291a1a-197b-4089-ab9b-028c9d4b9794_TERMS.PDF.txt" />
-    <entry file="file://$PROJECT_DIR$/flag_attr_get_0a291a1a-197b-4089-ab9b-028c9d4b9794_TERMS.PDF.txt" />
-    <entry file="file://$PROJECT_DIR$/flag_attr_get_0ac025f4-1a5c-4045-a756-3a1b4609ff2a_TERMS.PDF.txt" />
-    <entry file="file://$PROJECT_DIR$/flag_attr_get_2c84ec60-e925-4098-b02a-f9c9d6d70231_TERMS.PDF.txt" />
-    <entry file="file://$PROJECT_DIR$/flag_attr_get_0a0f2c3d-9e2e-4da6-8513-134906c96011_TERMS.PDF.txt" />
-    <entry file="file://$PROJECT_DIR$/flag_attr_get_0a58ea75-da03-47a3-b4b1-4ea41c1a3908_TERMS.PDF.txt" />
     <entry file="file://$PROJECT_DIR$/flag_attr_get_0a8dee6e-683a-418e-b030-cd6f0e884821_TERMS.PDF.txt" />
     <entry file="file://$PROJECT_DIR$/filelist.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -541,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,22 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
           <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/txt2js_attr_get_2ef8a2ec-6cb2-4cf2-95bb-909ed6122fa0_TERMS.PDF.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -577,19 +570,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/attr_get_2_json.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
+        <state relative-caret-position="1539">
           <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
           <folding>
             <element signature="e#74#111#0" expanded="true" />
@@ -607,19 +590,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/attr_get_health_insurance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="0">
           <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/gridsumsum/codeh/spider_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testaa.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt2js_attr_get_9541a1a8-62cb-4c48-b619-2830bdd3737f_TERMS.PDF.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt2js_attr_get_2ef8a2ec-6cb2-4cf2-95bb-909ed6122fa0_TERMS.PDF.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2717">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js_attr_get_2ef8a2ec-6cb2-4cf2-95bb-909ed6122fa0_TERMS.PDF.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js_attr_get_4494c923-bf70-4c90-9be1-cabbc1aa5c25_TERMS.PDF.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean_for_js_attr_get_7b20a008-559e-4f1b-80eb-de7bcf796257_TERMS.PDF.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fine3q.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disease_raw.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js_attr_get_080ee217-6c35-45ba-aa2e-5a3629c0dbb5_TERMS.PDF.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/attr_get_txt2json.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+        <state relative-caret-position="176">
+          <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
           <folding>
             <element signature="e#54#91#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="e#54#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fineok.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
