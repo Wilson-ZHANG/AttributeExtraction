@@ -1,6 +1,5 @@
 #encoding: utf-8
-#description: 将attr_get_txt加工成json格式
-#生成clean_for_js_
+#description: 将txt加工成json格式
 from __future__ import print_function
 import os
 import re
@@ -59,4 +58,4 @@ def attr_get(filename):
         i+=1
     print("}", file=save_again)
 
-produce_filename('D:\\KG\\testa')
+produce_filename('D:\\KG\\attr_get_new_yiliao')

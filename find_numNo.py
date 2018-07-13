@@ -58,5 +58,5 @@ def attr_get(filename):
         i+=1
     save.close()
     f.close()
-produce_filename('D:\\KG\\jibing')
+produce_filename('D:\\KG\\testa')
 #attr_get('D:\\PyCharmProjects\\attrifind\\test\\健康保险_疾病保险\\.txt')

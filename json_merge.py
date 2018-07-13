@@ -9,7 +9,7 @@ import csv
 
 def produce_filename(targetdir):
     targetnames = os.listdir(targetdir)
-    jsname = "fineok.json"
+    jsname = "disease_with_time.json"
 
     for name in targetnames:
         if '.txt' == name[-4:]:
@@ -25,4 +25,4 @@ def attr_get(filename,jsname):
     print(s,file=f2)
 
 
-produce_filename('D:\\KG\\js')
+produce_filename('D:\\KG\\js_jibing')

@@ -5,7 +5,7 @@ import os
 import shutil
 
 fileList = 'filename_health.txt'
-newname ="filename_dm.txt"
+newname ="filename_dm_to_118.txt"
 save =open(newname,'w',encoding='utf-8')
 filedir = open(fileList)
 line = filedir.readline()
@@ -15,7 +15,7 @@ print(line)
 while line:
     line = line.strip('\n')
     print(line)
-    line = "http://dm-ecnu.org/insurance_get_ext_result/attr_get_" + line +".txt"
+    line = "http://118.89.234.98/insurance_get_ext_result/attr_get_" + line +".txt"
     print(line)
     print(line,file=save)
     line = filedir.readline()
